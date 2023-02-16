@@ -24,7 +24,8 @@ int main ()
     cout << "price per small room " << pricePerLargeRoom << endl ;
 
     float costTotal {0} ; 
-    costTotal = (numberSmallRooms * pricePerSmallRoom ) + (numberLargeRooms * pricePerLargeRoom );
+    costTotal = (numberSmallRooms * pricePerSmallRoom ) + 
+                (numberLargeRooms * pricePerLargeRoom );
     cout << "Cost " << costTotal << endl; 
     float taxTotal {0}; 
     taxTotal = costTotal * taxRate ; 
