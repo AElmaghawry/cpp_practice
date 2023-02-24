@@ -23,5 +23,7 @@ int main ()
     amount = amount % nickel ; 
     cout << "nickel   : " << result << endl ;
     cout << "penny    : " << amount << endl ;
+
+
     return 0; 
 }

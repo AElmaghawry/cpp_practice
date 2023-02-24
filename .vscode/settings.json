@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.xacro": "xml",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     }
 }
